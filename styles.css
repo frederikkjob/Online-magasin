@@ -1,0 +1,244 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+
+
+
+html{
+    font-size: 100%;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+
+}
+
+
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    
+    
+    
+    background-image: url(images/moerkskov.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#rejsemuligheder{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > div > div > span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexcontainer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav{
+    height: 220px;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown > span{
+      font-size: 25pt;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #7a3a3a;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+
+  .dropdown-content > a{
+      font-size: 25pt;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+nav > a{
+    padding: 20px 40px;
+    font-size: 25pt;
+    
+    text-decoration: none;
+}
+
+nav > div > a{
+    padding: 20px 40px;
+    font-size: 25pt;
+    
+    text-decoration: none;
+}
+
+header > h1{
+    
+    margin: 40px 0px 0px 50px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+header > h1{
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content > div{
+    display: flex;
+    margin: 50px;
+    
+}
+
+
+
+.content > div > img{
+    padding: 0 50px 0 0;
+    
+}
+
+.content > div > div{
+    width: 450px;
+}
+
+.content > div > div > h2{
+
+font-size: 65px;
+width: 600px;
+font-family: sans-serif;
+}
+
+
+.content > div > div > p{
+
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+#footer{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(15, 15, 15);
+    
+}
+
+#footer > div > h6{
+    font-size: 50px;
+}
+#footer > div > p{
+    font-size: 25px;
+}
+
+
+.contentinterrail > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentinterrail > div > img{
+    
+    
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.contentrejslokalt > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentrejslokalt > div > img{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+.contentungdomsrejse > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contentungdomsrejse > div > img{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    
+    
+}
+
+
+.contentinterrail > div > h1{
+    margin: 40px 0px 0px 50px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.contentinterrail > div > h2{
+    margin: 40px 0px 0px 50px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+
+.contentrejslokalt > div > h1{
+    margin: 40px 0px 0px 50px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.contentrejslokalt > div > h2{
+    margin: 40px 0px 0px 50px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.contentungdomsrejse > div > h1{
+    margin: 40px 0px 0px 50px;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.contentungdomsrejse > div > h2{
+    margin: 40px 0px 0px 50px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
